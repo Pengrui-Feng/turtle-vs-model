@@ -1,17 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Jul 10 13:48:41 2017
-
-@author: zdong
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jan 11 22:15:30 2017
-different scales of distance and days for comparing ship with turtle
+get a file including  detail information of turtle and ship after matched with 10 km and 3days 
 @author: yifan
 """
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -86,5 +78,5 @@ data['turtle_lat']=pd.Series(t_lat)
 data['turtle_lon']=pd.Series(t_lon)
 data['turtle_depth']=pd.Series(t_depth)
 data['turtle_temp']=pd.Series(t_temp)
-data.to_csv('matched_turtleVSship1.csv')    
+data.to_csv('matched_turtleVSship.csv')    
     
