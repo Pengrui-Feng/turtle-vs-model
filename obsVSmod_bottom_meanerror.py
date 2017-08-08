@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Jul 21 13:45:11 2017
-plot mean error,absolute mean error and rms of temperature of observe and model
+plot mean error,absolute mean error and rms of difference temperature between observe and model
 @author: yifan
 """
 from matplotlib.mlab import griddata
