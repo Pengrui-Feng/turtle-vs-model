@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Feb 19 12:06:47 2015
-
-@author: zhobin
+'compare temperature of turtle and roms model before and after a storm'
+@author: yifan
 """
-'compare temperature before and after a storm'
 import numpy as np
 import pandas as pd
 import matplotlib as mpl
