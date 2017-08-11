@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-plot roms,fvcom and hycom quantity and ratio of error in each depth   
+plot the pecentage of the temperture difference(>10) between turtle and 3 models 
 @author: yifan
 '''
 import numpy as np
@@ -12,7 +12,7 @@ import netCDF4
 import watertempModule as wtm   # A module of classes that using ROMS, FVCOM
 from turtleModule import str2ndlist, np_datetime, bottom_value, dist
 #####################################ship######################################
-obsData=pd.read_csv('matched_turtleVSship1.csv')
+obsData=pd.read_csv('matched_turtleVSship.csv')
 obsdepth=pd.Series(str2ndlist(obsData['turtle_depth'], bracket=True))
 obstemp=pd.Series(str2ndlist(obsData['turtle_temp'], bracket=True))
 shipdepth=pd.Series(str2ndlist(obsData['ship_depth'], bracket=True))
