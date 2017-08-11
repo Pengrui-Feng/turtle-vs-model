@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-draw temp change of one specific turtle data and model data.
+draw temp change of one specific turtle and rom 
 '''
 import numpy as np
 import pandas as pd
@@ -55,15 +55,7 @@ modNearestIndex = modNearestIndex[obsData['PTT']==tID]
 time = obsTime[obsData['PTT']==tID]
 temp = obsTemp[obsData['PTT']==tID]
 #modTemp=pd.Series(str2ndlist(obsData['TEMP_VALS'][temp.index],bracket=True), index=temp.index)
-'''
-starttime, endtime=np.amin(time), np.amax(time)+timedelta(hours=1)
-modObj = wtm.waterCTD()
-url = modObj.get_url(starttime, endtime)    #something wrong with ROMS website
-oceantime = netCDF4.Dataset(url).variables['ocean_time']
-modTempAll = netCDF4.Dataset(url).variables['temp']
-modTemp = getModTemp(modTempAll, obsTime, layers, modNearestIndex, starttime, oceantime)
-modTemp = pd.Series(modTemp, index=temp.index)
-'''
+
 obsMaxTemp, obsMinTemp = [], []
 modMaxTemp, modMinTemp = [], []
 for i in temp.index:  #this loop calculate min & max temperature of each dive
@@ -139,4 +131,3 @@ plt.yticks(fontsize=20)
 fig.suptitle('Time series of temp for turtle:{0}'.format(tID), fontsize=25)
 ax2.set_yticks(ax1.get_yticks())
 plt.show()
-
