@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-plot the pecentage of the temperture difference(>10) between turtle and 3 models 
+plot the percentage of the temperature difference(>10) between turtle and 3 models
 @author: yifan
 '''
 import numpy as np
