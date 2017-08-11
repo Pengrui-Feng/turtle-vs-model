@@ -182,7 +182,7 @@ plt.xticks(fontsize=6)
 plt.yticks(fontsize=6)
 #plt.text(-200,40,'HYCOM',fontsize=20)
 plt.xlabel('Percentage(%)',fontsize=14)
-plt.savefig('Percentage',dpi=200)
+plt.savefig('statistics_model-obs_diff_temperature.png',dpi=200)
 plt.show()
 '''
 fig=plt.figure()
