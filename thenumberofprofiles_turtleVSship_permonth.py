@@ -1,6 +1,6 @@
  # -*- coding: utf-8 -*-
 """
-'plot number of dive and turtle in each month'
+'plot number of profiles of  turtle and ship in each month'
 Created on Tue Feb  3 09:07:00 2015
 @author: zhaobin
 some modifications by JiM in Jan 2016
