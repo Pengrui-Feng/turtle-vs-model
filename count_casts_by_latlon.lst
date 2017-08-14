@@ -1,0 +1,124 @@
+SQL> @count_casts_by_latlon.sql
+           70                                                                                                                                                                       
+
+          131                                                                                                                                                                       
+
+            0                                                                                                                                                                       
+
+            5                                                                                                                                                                       
+
+          111                                                                                                                                                                       
+
+            0                                                                                                                                                                       
+
+            0                                                                                                                                                                       
+
+          134                                                                                                                                                                       
+
+          128                                                                                                                                                                       
+
+            0                                                                                                                                                                       
+
+           52                                                                                                                                                                       
+
+            0                                                                                                                                                                       
+
+SQL> @count_casts_by_latlon.sql
+            0                                                                                                                                                                       
+
+          184                                                                                                                                                                       
+
+            0                                                                                                                                                                       
+
+            0                                                                                                                                                                       
+
+          107                                                                                                                                                                       
+
+            0                                                                                                                                                                       
+
+            0                                                                                                                                                                       
+
+            1                                                                                                                                                                       
+
+          139                                                                                                                                                                       
+
+            0                                                                                                                                                                       
+
+           46                                                                                                                                                                       
+
+            0                                                                                                                                                                       
+
+SQL> @count_casts_by_latlon.sql
+           33                                                                                                                                                                       
+
+           37                                                                                                                                                                       
+
+          112                                                                                                                                                                       
+
+            0                                                                                                                                                                       
+
+           35                                                                                                                                                                       
+
+          109                                                                                                                                                                       
+
+            0                                                                                                                                                                       
+
+           29                                                                                                                                                                       
+
+          131                                                                                                                                                                       
+
+           45                                                                                                                                                                       
+
+            0                                                                                                                                                                       
+
+            0                                                                                                                                                                       
+
+SQL> @count_casts_by_latlon.sql
+           29                                                                                                                                                                       
+
+          162                                                                                                                                                                       
+
+            0                                                                                                                                                                       
+
+           12                                                                                                                                                                       
+
+           42                                                                                                                                                                       
+
+            2                                                                                                                                                                       
+
+            0                                                                                                                                                                       
+
+           62                                                                                                                                                                       
+
+          134                                                                                                                                                                       
+
+           50                                                                                                                                                                       
+
+            0                                                                                                                                                                       
+
+            0                                                                                                                                                                       
+
+SQL> @count_casts_by_latlon.sql
+            0                                                                                                                                                                       
+
+           54                                                                                                                                                                       
+
+          129                                                                                                                                                                       
+
+            0                                                                                                                                                                       
+
+            0                                                                                                                                                                       
+
+          117                                                                                                                                                                       
+
+          149                                                                                                                                                                       
+
+            0                                                                                                                                                                       
+
+          133                                                                                                                                                                       
+
+            0                                                                                                                                                                       
+
+           27                                                                                                                                                                       
+
+            0                                                                                                                                                                       
