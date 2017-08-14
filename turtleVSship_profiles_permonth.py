@@ -1,11 +1,12 @@
  # -*- coding: utf-8 -*-
 """
+'plot number of dive and turtle in each month'
 Created on Tue Feb  3 09:07:00 2015
 @author: zhaobin
 some modifications by JiM in Jan 2016
 where I added #CTD profiles as well
+some some modifications by yifan in july 2017
 """
-'plot number of dive and turtle in each month'
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
