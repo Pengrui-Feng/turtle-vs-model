@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Jan  4 15:35:00 2017
-compare  isothermal layer depth(ILD) of 4 turtle data and model data.(turtles are random 4 turtle)
+compare  isothermal layer depth(ILD) of 2 turtle data and 3 model data.
 @author: yifan
 """
 import numpy as np
@@ -126,5 +126,5 @@ for i in range(4):
         plt.setp(ax.get_xticklabels() ,visible=False)
 fig.text(0.5, 0.04, '2013', ha='center', va='center', fontsize=14)#  0.5 ,0.04 represent the  plotting scale of x_axis and y_axis
 fig.text(0.06, 0.5, 'Isothermal Layer Depth(m)', ha='center', va='center', rotation='vertical',fontsize=14)
-#plt.savefig('ILD_obsVSmod_no_smooth.png',dpi=200)
+#plt.savefig('ILD_4obsVSmod.png',dpi=200)
 plt.show()
