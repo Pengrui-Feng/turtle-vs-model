@@ -2,7 +2,7 @@
 """
 Created on Fri Jul 21 13:45:11 2017
 plot mean error,absolute mean error and rms of difference temperature between observe and model
-@author: yifan
+@author: zdong,yifan
 """
 from matplotlib.mlab import griddata
 import matplotlib.pyplot as plt
