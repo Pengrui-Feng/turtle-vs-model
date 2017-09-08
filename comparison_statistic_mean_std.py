@@ -120,5 +120,5 @@ plt.text(-7,37,'HYCOM',fontsize=10)
 fig.text(0.5, 0.04, 'Temperature ($^\circ$C)', ha='center', va='center', fontsize=14)#  0.5 ,0.04 represent the  plotting scale of x_axis and y_axis
 fig.text(0.06, 0.5, 'Depth(m)', ha='center', va='center', rotation='vertical',fontsize=14)
 fig.text(0.5, 0.94, 'comparison with turtle data', ha='center', va='center', fontsize=16)
-plt.savefig('comparison with turtle data.png',dpi=200)
+plt.savefig('comparison_statistic_mean_std.png',dpi=200)
 plt.show()
