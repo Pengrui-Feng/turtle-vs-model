@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 plot the contour of the temperature of the turtle within 10 meter near the bottom in different season.
-@author: yifan
+@author: zdong, yifan
 """
 from matplotlib.mlab import griddata
 import matplotlib.pyplot as plt
