@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Jul 12 13:51:36 2017
-draw the correlation between turtle and models(fvcom,roms,hycom) and ship 
+draw the bottom depth of the correlation between turtle and models(fvcom,roms,hycom) and ship 
 @author: yifan
 """
 import pandas as pd
